@@ -43,7 +43,7 @@ cp .env.example .env
 3. Suba os containers:
 
 ```bash
-docker-compose up -d
+docker-compose up -d --build
 ```
 
 Certifique-se de que o seu `Dockerfile` usa PHP 8.2:
@@ -89,7 +89,7 @@ Este projeto já vem com testes automatizados utilizando mocks para:
 ### Rodar os testes:
 
 ```bash
-php artisan test
+php artisan test tests/Feature
 ```
 
 Todos os testes devem passar com sucesso, simulando chamadas ao `LogService` e `Queue`.
