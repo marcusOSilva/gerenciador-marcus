@@ -30,8 +30,8 @@ Este projeto é uma API RESTful com Laravel 9, dockerizada, com autenticação v
 1. Clone o projeto:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/marcusOSilva/gerenciador-marcus
+cd gerenciador-marcus
 ```
 
 2. Copie o arquivo `.env`:
